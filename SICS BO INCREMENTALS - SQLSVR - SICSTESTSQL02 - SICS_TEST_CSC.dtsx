@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="SICS BO INCREMENTALS - SQLSVR - SICSTESTSQL02 - SICS_TEST_CSC"
   DTS:PackageType="5"
-  DTS:VersionBuild="616"
-  DTS:VersionGUID="{F22D61E5-DB17-4115-9304-FFD9A72ACFEE}">
+  DTS:VersionBuild="617"
+  DTS:VersionGUID="{9ACF4F20-6349-4D03-AE98-03A52DABC40B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="1"
-          DTS:ConnectionString="\\filesvr\vdrive\ApplicationDataTest\AAIC\Schaumburg\SICS_BOXI_INCREMENTALS\SSIS_LOGS\SICS BO INCREMENTALS - SQLSVR - SICSTESTSQL02 - SICS_TEST_CSC 2024_03_06_140304.log" />
+          DTS:ConnectionString="\\filesvr\vdrive\ApplicationDataTest\AAIC\Schaumburg\SICS_BOXI_INCREMENTALS\SSIS_LOGS\SICS BO INCREMENTALS - SQLSVR - SICSTESTSQL02 - SICS_TEST_CSC 2024_03_06_141645.log" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -55,7 +55,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVwLDLRCAo0qUY4TjFDu2aQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABB4LH4bu5wKqhIw8wQbrU/AAAAAASAAACgAAAAEAAAAFou78bZYmHUfFzlqRZzPqQYAAAAWr+duu4RHsKG1Fkny33hf014FXQaDrbnFAAAAD6wQh4OZ4GTSThpT5MZSh5zpjZu</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVwLDLRCAo0qUY4TjFDu2aQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACMdOtZL8Ic20ZhGRHJbc8uAAAAAASAAACgAAAAEAAAAB9Q2aZM2w9BRImYhoak6PUYAAAA4mRfeHwnUszQluAoVbuQnRSI/V8/JPR1FAAAADfk2FAaHrqVPDT+0tKweFHXfSPm</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -109,7 +109,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="strLogFileName">
       <DTS:VariableValue
-        DTS:DataType="8">\\filesvr\vdrive\ApplicationDataTest\AAIC\Schaumburg\SICS_BOXI_INCREMENTALS\SSIS_LOGS\SICS BO INCREMENTALS - SQLSVR - SICSTESTSQL02 - SICS_TEST_CSC 2024_03_06_140304.log</DTS:VariableValue>
+        DTS:DataType="8">\\filesvr\vdrive\ApplicationDataTest\AAIC\Schaumburg\SICS_BOXI_INCREMENTALS\SSIS_LOGS\SICS BO INCREMENTALS - SQLSVR - SICSTESTSQL02 - SICS_TEST_CSC 2024_03_06_141645.log</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -9079,15 +9079,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Assign Email Subject - SUCCESS"
           TopLeft="393.625,892.125" />
         <NodeLayout
-          Size="441,42"
+          Size="570,42"
           Id="Package\Assign Email Subject Step 1 BOAC004B, BOAC details - BOAC004 Failed"
           TopLeft="980.625,472.5" />
         <NodeLayout
-          Size="442,42"
+          Size="571,42"
           Id="Package\Assign Email Subject Step 2 BOAC005B, BOAC balpair - BOAC005 Failed"
           TopLeft="981.25,564.125" />
         <NodeLayout
-          Size="397,42"
+          Size="571,42"
           Id="Package\Assign Email Subject Step 3 BOBU001B, BOBU load - BOBU001"
           TopLeft="981.25,646.875" />
         <NodeLayout
@@ -9095,7 +9095,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Assign Email Subject Step 4 SUPP002, Update BOAC BP - usp_SUPP002_Business_Partners_Data"
           TopLeft="981.875,730.625" />
         <NodeLayout
-          Size="506,42"
+          Size="569,42"
           Id="Package\Assign Email Subject Step 5 Create SICS BO INCREMENTALS JOB COMPLETED File"
           TopLeft="984.5,808.5" />
         <NodeLayout
@@ -9103,15 +9103,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Create SICS_BO_INCREMENTALS_JOB_COMPLETED_TIME File"
           TopLeft="317.5,806" />
         <NodeLayout
-          Size="394,42"
+          Size="523,42"
           Id="Package\Send Email Step 1 BOAC004B, BOAC details - BOAC004 Failed"
           TopLeft="1613,476.039223980051" />
         <NodeLayout
-          Size="395,42"
+          Size="524,42"
           Id="Package\Send Email Step 2 BOAC005B, BOAC balpair - BOAC005 Failed"
           TopLeft="1611.75,560" />
         <NodeLayout
-          Size="350,42"
+          Size="517,42"
           Id="Package\Send Email Step 3 BOBU001B, BOBU load - BOBU001"
           TopLeft="1614.66666666667,640.270833333333" />
         <NodeLayout
@@ -9304,18 +9304,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 15]"
-          TopLeft="1490.5,828.75">
+          TopLeft="1553.5,828.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{x:Null}"
-              EndConnector="126.5,0"
+              EndConnector="63.5,0"
               Start="0,0"
-              End="119,0">
+              End="56,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="119,0" />
+                    End="56,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9350,18 +9350,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="1421.625,495.269611990026">
+          TopLeft="1550.625,495.269611990026">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{x:Null}"
-              EndConnector="191.375,0"
+              EndConnector="62.375,0"
               Start="0,0"
-              End="183.875,0">
+              End="54.875,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="183.875,0" />
+                    End="54.875,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9372,18 +9372,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="1423.25,583.0625">
+          TopLeft="1552.25,583.0625">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{x:Null}"
-              EndConnector="188.5,0"
+              EndConnector="59.5,0"
               Start="0,0"
-              End="181,0">
+              End="52,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="181,0" />
+                    End="52,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9440,18 +9440,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="1378.25,664.572916666667">
+          TopLeft="1552.25,664.572916666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{x:Null}"
-              EndConnector="236.41666666667,0"
+              EndConnector="62.4166666666699,0"
               Start="0,0"
-              End="228.91666666667,0">
+              End="54.9166666666699,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="228.91666666667,0" />
+                    End="54.9166666666699,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
